@@ -7,7 +7,7 @@ public class Expense {
     private String expireDate;
     private String category;
 
-    public Expense(int id, String name, Double amount, String expireDate, String category) {
+    public Expense(int id, String name, Double amount, String category, String expireDate) {
         this.id = id;
         this.name = name;
         this.amount = amount;
